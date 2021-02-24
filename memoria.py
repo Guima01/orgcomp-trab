@@ -1,12 +1,12 @@
 
+class memoria:
 
-memoria = []
+    def __init__(self):
+        self.memoria = []
+        self.pc = 0
+    def setInstrucao(self,instrucao):
+        self.memoria.insert(len(self.memoria), instrucao)
 
-def setInstrucao(instrucao):
-    global memoria
-    memoria.insert(len(memoria), instrucao)
-
-def getInstrucao(posicao):
-    global memoria
-    return memoria[posicao]
+    def getInstrucao(self,posicao):
+        return self.memoria[posicao]
         

@@ -1,17 +1,3 @@
-regDst = "0"
-regWrite = "0"
-aluSrcA = "0"
-memRead = "0"
-memWrite = "0"
-memToReg = "0"
-iorD = "0"
-irWrite = "0"
-pcWrite = "0"
-pcWriteCond = "0"
-aluOP = "00"
-aluSrcB = "00"
-pcSource = "00"
-
 class controle:
     def __init__(self):
         self.regDst = "0"
@@ -28,7 +14,7 @@ class controle:
         self.aluSrcB = "00"
         self.pcSource = "00"
 
-    def variaveisControle(self, etapa):
+    def variaveisControle(self,opcode,etapa):
         if (etapa == 1):
             self.memRead = "1"
             self.irWrite = "1"
