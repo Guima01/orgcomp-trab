@@ -30,8 +30,31 @@ def binarioParaDecimal(bits):
 
 def estendeSinal(bits):
     while(len(bits) != 32):
-        bits = bits[0] + bits
+        bits = bits + bits[15]
+    #print(bits)
     return bits
+
+def complementoDois(bits):
+    if(bits[0] == "0"):
+        print(bits)
+        return binarioParaDecimal(int(bits))
+    else:
+        boolean = False
+        aux = ""
+        for i in range(len(bits)-1, 0 , -1):
+            if(boolean == True):
+                if(bits[i] == "1"):
+                    aux = aux + "0"
+                elif(bits[i] == "0"):
+                    aux = aux + "1"
+            elif(bits[i] == "1"):
+                boolean = True
+                aux = aux + bits[i]
+            else:
+                aux = aux + bits[i]
+        print(aux)
+
+
 
 
 def etapa1():
@@ -52,7 +75,10 @@ def etapa2():
     pos2 = binarioParaDecimal(int(pos2))
     aRegister = registradores[pos1]
     bRegister = registradores[pos2]
-    print(estendeSinal(aux[0:16]))
+    aux = estendeSinal(aux[0:16])
+    aux = ''.join(reversed(aux))
+    complementoDois(aux)
+    
     #tenho q fazer o aluOut ainda
 
 
