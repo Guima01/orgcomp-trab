@@ -14,7 +14,7 @@ class controle:
         self.aluSrcB = "00"
         self.pcSource = "00"
 
-    def variaveisControle(self,opcode,etapa):
+    def variaveisControle(self, functioncode, opcode,etapa):
         if (etapa == 1):
             self.memRead = "1"
             self.irWrite = "1"
@@ -26,17 +26,23 @@ class controle:
             self.pcWrite = "00"
         
         elif(etapa == 2):
-            #aluout recebe uma parada aqui
             self.aluSrcA = "0"
             self.aluSrcB = "11"
             self.aluOP = "00"
 
         elif(etapa == 3):
-            #aluout recebe uma parada aqui
-            self.aluSrcA = "1"
-            self.aluSrcB = "10"
-            self.aluOP = "00"
-            #tem varias outras coisas aqui na vdd
+            if(opcode == "000000" and functioncode != "001000"): #tipo-R
+                self.aluSrcA = "1"
+                self.aluSrcB = "00"
+                self.aluOP = "10"
+
+            elif(functioncode == "001000" or opcode == "000010" or opcode == "000011"): #tipo-J
+                self.pcWrite = "1"
+                self.pcSource = "10"
+            else:  
+                self.aluSrcA = "1"
+                self.aluSrcB = "10"
+                self.aluOP = "00"
         
         elif(etapa == 4):
             #memRead = 1 ou  memWrite = 1
