@@ -31,14 +31,16 @@ class controle:
             self.aluOP = "00"
 
         elif(etapa == 3):
-            if(opcode == "000000" and functioncode != "001000"): #tipo-R
+
+            if(functioncode == "001000" or opcode == "000010" or opcode == "000011"): #Desvio incodicional
+                self.pcWrite = "1"
+                self.pcSource = "10"
+
+            elif(opcode == "000000" and functioncode != "001000"): #tipo-R
                 self.aluSrcA = "1"
                 self.aluSrcB = "00"
                 self.aluOP = "10"
 
-            elif(functioncode == "001000" or opcode == "000010" or opcode == "000011"): #tipo-J
-                self.pcWrite = "1"
-                self.pcSource = "10"
             else:  
                 self.aluSrcA = "1"
                 self.aluSrcB = "10"
