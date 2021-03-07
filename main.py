@@ -41,12 +41,12 @@ def binarioParaDecimal(bits):
 def twos_complement(j):
    return j-(1<<(j.bit_length()))
 
-def complementoDois(number):
-    bit = extractKBits(number, 1, 16)
+def complementoDois(number, value):
+    bit = extractKBits(number, 1, value)
     if(bit == 0):
-        return extractKBits(number, 16, 1)
+        return extractKBits(number, value, 1)
     else:
-        return twos_complement(extractKBits(number, 16, 1))
+        return twos_complement(extractKBits(number, value, 1))
 
 def desvioIncondicional(function , opcode):
     global aRegister
@@ -54,22 +54,22 @@ def desvioIncondicional(function , opcode):
     global aluOut
     global ir
 
-    if(opcode == "000010"):
+    if(opcode == 2):  #j
         aux = extractKBits(ir,26,1)
-        aux = aux
-        aux2 = extractKBits(memoria.pc, 4, 28)
+        aux2 = extractKBits(memoria.pc, 4, 29)
         aux2 = aux2 << 28
-        memoria.pc = aux2 | aux
+        aux = aux2 | aux
+        memoria.pc = complementoDois(aux,32)
 
-    elif(opcode == "000011"):
-        registradores[31] = memoria.pc + 1
+    elif(opcode == 3): #jal
+        aluOut = memoria.pc + 1
         aux = extractKBits(ir,26,1)
-        aux = aux
-        aux2 = extractKBits(memoria.pc, 4, 28)
+        aux2 = extractKBits(memoria.pc, 4, 29)
         aux2 = aux2 << 28
-        memoria.pc = aux2 | aux
+        aux = aux2 | aux
+        memoria.pc = complementoDois(aux,32)
 
-    elif(function == "001000"):
+    elif(function == 8): #jr
         position = extractKBits(ir, 5, 22)
         memoria.pc = registradores[position]
     
@@ -80,16 +80,15 @@ def desvioCondicional(function, opcode):
     global aluOut
     global ir
 
-    if(opcode == "000100"):
+    if(opcode == 4):     #beq
         if(aRegister == bRegister):
             memoria.pc = aluOut
     
-    elif(opcode == "000101"):
+    elif(opcode == 5):   #bne
         if(aRegister != bRegister):
             memoria.pc = aluOut
     
-    elif(function == "101010"):
-        position = extractKBits(ir, 5, 12)
+    elif(function == 42):   #slt
         if(aRegister < bRegister):
             aluOut = 1
         else:
@@ -102,23 +101,23 @@ def logicaOuAritmetica(function, opcode):
     global aluOut
     global ir
 
-    if(function == "100000"):
+    if(function == 32):   #add
         aluOut = aRegister + bRegister
 
-    elif(function == "100010"):
+    elif(function == 34):   #sub
         aluOut = aRegister - bRegister
 
-    elif(function == "100100"):
+    elif(function == 36):   #and
         aluout = aRegister & bRegister
 
-    elif(function == "100101"):
+    elif(function == 37):   #or
         aluout = aRegister | bRegister
     
-    elif(function == "000000"):
+    elif(function == 0):   #sll
         aux = extractKBits(ir, 5, 7)
         aluOut = bRegister << aux
 
-    elif(opcode == "001000"):
+    elif(opcode == 8):     #addi
         aux = extractKBits(ir, 16, 1)
         aluout = aRegister + aux
 
@@ -129,72 +128,106 @@ def acessoMemoria(function, opcode):
     global aluOut
     global ir
 
-    if(opcode == "100011"):
-        aux = complementoDois(ir)
+    if(opcode == 35):      #LW
+        aux = complementoDois(ir,16)
         aluOut = aRegister + aux
 
-    elif(opcode == "101011"):
-        aux = complementoDois(ir)
+    elif(opcode == 43):      #SW
+        aux = complementoDois(ir,16)
         aluOut = aRegister + aux
 
     
-def prints(etapa):
+def printEtapas(etapa):
+    global aluOut
+    global mdr
     print("")
     print("Etapa " + str(etapa))
     print("Instrução: jump")
     print("PC: " + str(memoria.pc))
+    print("aluOut: " + str(aluOut))
+    print("MDR: " + str(mdr))
     for i in range(len(registradores)):
         print("Registrador " + str(i) + ": " + str(registradores[i]))
 
 def etapa1():
+
     global ir
-    prints(1)
     controle.variaveisControle(None, None,1)
-    if(controle.memRead == "1" and controle.irWrite == "1" and controle.iorD == "0"):
-        ir = memoria.getInstrucao(memoria.pc)
-    if(controle.aluSrcA == "0" and controle.aluSrcB == "01" and controle.aluOP == "00" and controle.pcSource == "00" and controle.pcWrite == "00"):
+
+    if(controle.memRead == 1 and controle.irWrite == 1 and controle.iorD == 0):
+        ir = memoria.memoria[memoria.pc]
+        
+    if(controle.aluSrcA == 0 and controle.aluSrcB == 1 and controle.aluOP == 0 and controle.pcSource == 0 and controle.pcWrite == 1):
         memoria.pc = memoria.pc + 1
+    
+    printEtapas(1)
 
 def etapa2():
     global ir
     global aluOut
     global aRegister
     global bRegister
-    prints(2)
+
     controle.variaveisControle(None, None, 2)
     aRegister = extractKBits(ir,5,22)
     bRegister = extractKBits(ir,5,17)
-    aux = complementoDois(ir)
+    aux = complementoDois(ir, 16)
     aluOut = memoria.pc + aux
-    
+    printEtapas(2)   
     
 def etapa3():
     global ir
     global aluOut
     global aRegister
     global bRegister
-    #controle.variaveisControle(ir[26:32],ir[0:6],3)
-    desvioIncondicional("001000", None)
+
+
+    functioncode = extractKBits(ir, 6, 1)
+    opcode = extractKBits(ir, 6, 27)
+
+    controle.variaveisControle(functioncode, opcode, 3)
+
+    if(controle.aluSrcA == 1 and controle.aluSrcB == 2 and controle.aluOP == 0): #Acesso a memória
+        acessoMemoria(functioncode, opcode)
+    if(controle.aluSrcA == 1 and controle.aluSrcB == 0 and controle.aluOP == 2):
+        logicaOuAritmetica(functioncode, opcode)
+    if(controle.aluSrcA == 1 and controle.aluSrcB == 0 and controle.aluOP == 1 and controle.pcWriteCond == 1 and controle.pcSource == 1):
+        desvioCondicional(functioncode, opcode)
+    if(controle.pcWrite== 1 and controle.pcSource == 2 ):
+        desvioIncondicional(functioncode,opcode)
+
+    printEtapas(3)
+
 
 def etapa4():
 
-    #ainda precisa setar sinais de controle
     global ir
     global aluOut
     global aRegister
     global bRegister
     global mdr
+
     opcode = extractKBits(ir,6,27)
-    function = extractKBits(ir, 6, 1)
-    if(opcode == 35):
+    functioncode = extractKBits(ir, 6, 1)
+
+    controle.variaveisControle(functioncode, opcode, 4)
+
+    if(controle.memRead == 1 and controle.iorD == 1):
         mdr = memoria.memoria[aluOut]
-    elif(opcode == 43):
+
+    elif(controle.memWrite == 1 and controle.iorD == 1):
         memoria.memoria[aluOut] = bRegister
     
-    elif(function == 32 or function == 34 or function == 36 or function == 37 or function == 0 or opcode == 8):
-        position = extractKBits(ir, 5, 12)
-        registradores[position] = aluOut
+    elif(controle.regDst == 1 and controle.regWrite == 1 and controle.memToReg == 0):
+        if(opcode == 0):
+            registradores[extractKBits(ir, 5, 12)] = aluOut
+        elif(opcode == 8):
+            registradores[extractKBits(ir, 5, 17)] = aluOut
+        elif(opcode == 3):
+            registradores[31] = aluOut
 
+    printEtapas(4)
+    
 def etapa5():
 
     #ainda precisa setar sinais de controle
@@ -203,26 +236,29 @@ def etapa5():
     global aRegister
     global bRegister
     global mdr
+    
 
     opcode = extractKBits(ir,6,27)
     if(opcode == 35):
         position = extractKBits(ir, 5, 17)
         registradores[position] = mdr
 
+    printEtapas(5)
+
 
 def main():
     
     arquivo = leituraArquivo()
+    i = 0
     for linha in arquivo.readlines():
         aux = int(linha.strip())
-        memoria.setInstrucao(binarioParaDecimal(aux))
+        memoria.setInstrucao(binarioParaDecimal(aux), i)
         etapa1()
         etapa2()
         etapa3()
         etapa4()
         etapa5()
-
-
+        i += i
 
 
 if __name__ == "__main__":
