@@ -1,7 +1,7 @@
 
 class memoria:
     def __init__(self):
-        self.memoria = [1]*64
+        self.memoria = [3]*64
         self.pc = 0
 
     def setInstrucao(self,instrucao, index):

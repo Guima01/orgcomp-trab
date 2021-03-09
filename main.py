@@ -42,7 +42,7 @@ def printEtapas(etapa):
         if(functioncode != 0 and functioncode != 8):
             print("Instrução: " + dicionario.tipoR[functioncode] + " " + dicionario.registradores[rd] + " " + dicionario.registradores[rs] + " " + dicionario.registradores[rt])
         elif(functioncode == 0):
-            print("Instrução: " + dicionario.tipoR[functioncode] + " " + dicionario.registradores[rd] + " " + dicionario.registradores[rt] + " " + dicionario.registradores[sa])            
+            print("Instrução: " + dicionario.tipoR[functioncode] + " " + dicionario.registradores[rd] + " " + dicionario.registradores[rt] + " " + "0x{:04x}".format(sa))            
         elif(functioncode == 8):
             print("Instrução: " + dicionario.tipoR[functioncode] + " " + dicionario.registradores[rs])     
                                       
@@ -59,7 +59,7 @@ def printEtapas(etapa):
         elif(opcode == 4 or opcode == 5):
             print("Instrução: " + dicionario.tipoI[opcode] + " " + dicionario.registradores[rs] + " " + dicionario.registradores[rt] + " " + "0x{:04x}".format(immediate))
         elif(opcode == 35 or opcode == 43):
-            print("Instrução: " + dicionario.tipoI[opcode] + " " + dicionario.registradores[rt] + " " + "0x{:04x}".format(immediate) + "({0})".format(dicionario.registradores[immediate]))   
+            print("Instrução: " + dicionario.tipoI[opcode] + " " + dicionario.registradores[rt] + " " + "0x{:04x}".format(immediate) + "({0})".format(dicionario.registradores[rs]))   
     print("PC: " + str(memoria.pc))
     print("aluOut: " + str(aluOut))
     print("MDR: " + str(mdr))
@@ -153,19 +153,13 @@ def logicaOuAritmetica(function, opcode):
     global ir
 
     if(function == 32):   #add
-        print(aRegister)
-        print(bRegister)
         aluOut = aRegister + bRegister
 
     elif(function == 34):   #sub
         aluOut = aRegister - bRegister
 
     elif(function == 36):   #and
-        print(aRegister)
-        print(bRegister)
-        print(aRegister & bRegister)
         aluOut = aRegister & bRegister
-        print(aluOut)
 
     elif(function == 37):   #or
         aluOut = aRegister | bRegister
@@ -176,6 +170,7 @@ def logicaOuAritmetica(function, opcode):
 
     elif(opcode == 8):     #addi
         aux = extractKBits(ir, 16, 1)
+
         aluOut = aRegister + aux
 
 def acessoMemoria(function, opcode):
@@ -191,6 +186,8 @@ def acessoMemoria(function, opcode):
 
     elif(opcode == 43):      #SW
         aux = complementoDois(ir,16)
+        print(aux)
+        print(aRegister)
         aluOut = aRegister + aux
 
 
@@ -257,10 +254,10 @@ def etapa4():
 
     controle.variaveisControle(functioncode, opcode, 4)
 
-    if(controle.memRead == 1 and controle.iorD == 1):
+    if(controle.memRead == 1 and controle.iorD == 1 and controle.memWrite != 1):
         mdr = memoria.memoria[aluOut]
 
-    elif(controle.memWrite == 1 and controle.iorD == 1):
+    elif(controle.memWrite == 1 and controle.iorD == 1 and controle.memRead !=1):
         memoria.memoria[aluOut] = bRegister
     
     elif(controle.regDst == 1 and controle.regWrite == 1 and controle.memToReg == 0):
