@@ -1,22 +1,73 @@
 from memoria import *
 from controle import *
+from dicionario import *
 from random import *
 
 
 controle = controle()
 memoria = memoria()
+dicionario = dicionario()
 registradores = [1] * 32
 aRegister = None
 bRegister = None
 aluOut = None
 ir = None
 mdr = None
+clock = 1
 
 def leituraArquivo():
     print('digite o caminho do arquivo de entrada:')
     caminhoDoArquivo = input()
     entrada = open(caminhoDoArquivo, 'r')
     return entrada
+
+def printEtapas(etapa):
+    global aluOut
+    global mdr
+    global ir
+    global clock
+
+    opcode = extractKBits(ir,6,27)
+    functioncode = extractKBits(ir, 6, 1)
+
+    print("")
+    print("clock: " + str(clock))
+    print("Etapa " + str(etapa))
+
+    if(opcode == 0):
+        rs = extractKBits(ir, 5, 22)
+        rt = extractKBits(ir, 5, 17)
+        rd = extractKBits(ir, 5, 12)
+        sa = extractKBits(ir, 5, 7)
+        if(functioncode != 0 and functioncode != 8):
+            print("Instrução: " + dicionario.tipoR[functioncode] + " " + dicionario.registradores[rd] + " " + dicionario.registradores[rs] + " " + dicionario.registradores[rt])
+        elif(functioncode == 0):
+            print("Instrução: " + dicionario.tipoR[functioncode] + " " + dicionario.registradores[rd] + " " + dicionario.registradores[rt] + " " + dicionario.registradores[sa])            
+        elif(functioncode == 8):
+            print("Instrução: " + dicionario.tipoR[functioncode] + " " + dicionario.registradores[rs])     
+                                      
+    elif(opcode == 2 or opcode == 3):
+        target = extractKBits(ir, 26, 1)
+        print("Instrução: " + dicionario.tipoJ[opcode] + " " + "0x{:04x}".format(target))
+    
+    else:
+        rs = extractKBits(ir, 5, 22)
+        rt = extractKBits(ir, 5, 17)
+        immediate = extractKBits(ir, 16, 1)
+        if(opcode == 8):
+            print("Instrução: " + dicionario.tipoI[opcode] + " " + dicionario.registradores[rt] + " " + dicionario.registradores[rs] + " " + "0x{:04x}".format(immediate))
+        elif(opcode == 4 or opcode == 5):
+            print("Instrução: " + dicionario.tipoI[opcode] + " " + dicionario.registradores[rs] + " " + dicionario.registradores[rt] + " " + "0x{:04x}".format(immediate))
+        elif(opcode == 35 or opcode == 43):
+            print("Instrução: " + dicionario.tipoI[opcode] + " " + dicionario.registradores[rt] + " " + "0x{:04x}".format(immediate) + "({0})".format(dicionario.registradores[immediate]))   
+    print("PC: " + str(memoria.pc))
+    print("aluOut: " + str(aluOut))
+    print("MDR: " + str(mdr))
+
+    for i in range(len(registradores)):
+        print("Registrador " + str(i) + ": " + str(registradores[i]))
+    
+    clock +=1
 
 
 def extractKBits(num,k,p): 
@@ -102,16 +153,22 @@ def logicaOuAritmetica(function, opcode):
     global ir
 
     if(function == 32):   #add
+        print(aRegister)
+        print(bRegister)
         aluOut = aRegister + bRegister
 
     elif(function == 34):   #sub
         aluOut = aRegister - bRegister
 
     elif(function == 36):   #and
-        aluout = aRegister & bRegister
+        print(aRegister)
+        print(bRegister)
+        print(aRegister & bRegister)
+        aluOut = aRegister & bRegister
+        print(aluOut)
 
     elif(function == 37):   #or
-        aluout = aRegister | bRegister
+        aluOut = aRegister | bRegister
     
     elif(function == 0):   #sll
         aux = extractKBits(ir, 5, 7)
@@ -119,7 +176,7 @@ def logicaOuAritmetica(function, opcode):
 
     elif(opcode == 8):     #addi
         aux = extractKBits(ir, 16, 1)
-        aluout = aRegister + aux
+        aluOut = aRegister + aux
 
 def acessoMemoria(function, opcode):
     
@@ -136,18 +193,6 @@ def acessoMemoria(function, opcode):
         aux = complementoDois(ir,16)
         aluOut = aRegister + aux
 
-    
-def printEtapas(etapa):
-    global aluOut
-    global mdr
-    print("")
-    print("Etapa " + str(etapa))
-    print("Instrução: jump")
-    print("PC: " + str(memoria.pc))
-    print("aluOut: " + str(aluOut))
-    print("MDR: " + str(mdr))
-    for i in range(len(registradores)):
-        print("Registrador " + str(i) + ": " + str(registradores[i]))
 
 def etapa1():
 
@@ -169,8 +214,8 @@ def etapa2():
     global bRegister
 
     controle.variaveisControle(None, None, 2)
-    aRegister = extractKBits(ir,5,22)
-    bRegister = extractKBits(ir,5,17)
+    aRegister = registradores[extractKBits(ir,5,22)]
+    bRegister = registradores[extractKBits(ir,5,17)]
     aux = complementoDois(ir, 16)
     aluOut = memoria.pc + aux
     printEtapas(2)   
@@ -253,12 +298,14 @@ def main():
     for linha in arquivo.readlines():
         aux = int(linha.strip())
         memoria.setInstrucao(binarioParaDecimal(aux), i)
+        i += 1
+    for j in range(i):
         etapa1()
         etapa2()
         etapa3()
         etapa4()
         etapa5()
-        i += i
+
 
 
 if __name__ == "__main__":
