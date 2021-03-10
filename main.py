@@ -7,6 +7,7 @@ from random import *
 controle = controle()
 memoria = memoria()
 dicionario = dicionario()
+numeroinstrucoes = 0
 registradores = [1] * 32
 saida = None
 aRegister = None
@@ -15,12 +16,6 @@ aluOut = None
 ir = None
 mdr = None
 clock = 1
-
-def leituraArquivo():
-    print('digite o caminho do arquivo de entrada:')
-    caminhoDoArquivo = input()
-    entrada = open(caminhoDoArquivo, 'r')
-    return entrada
 
 
 def printEtapas(etapa):
@@ -304,23 +299,84 @@ def etapa5():
         registradores[position] = mdr
         printEtapas(5)
 
+def leituraArquivo():
+    print('digite o caminho do arquivo de entrada:')
+    caminhoDoArquivo = input()
+    entrada = open(caminhoDoArquivo, 'r')
+    return entrada
 
+def reset():
+    global numeroinstrucoes
+    global aluOut
+    global clock
+    global ir 
+    global mdr 
 
+    for i in range(32):
+        registradores[i] = 1
+    for i in range(64):
+        memoria.memoria[i] = 3
+    numeroinstrucoes = 0
+    memoria.pc = 0
+    aluOut = None
+    ir = None
+    mdr = None
+    clock = 1
+
+def menu():
+
+    global numeroinstrucoes
+    while(True):
+        print("Menu")
+        print("[1] leitura de arquivo de instruções")
+        print("[2] leitura do arquivo via teclado")
+        print("[3] Reset memória e registradores")
+        print("[0] Sair")
+        print()
+        opcao = input()
+
+        if(opcao == "1"):
+            with open("output.txt", "w") as saida:
+                print("RESULTADO",file = saida)
+            arquivo = leituraArquivo()
+            for linha in arquivo.readlines():
+                aux = int(linha.strip())
+                memoria.setInstrucao(binarioParaDecimal(aux), numeroinstrucoes)
+                numeroinstrucoes +=1
+            while(memoria.memoria[memoria.pc] != 3):
+                etapa1()
+                etapa2()
+                etapa3()
+                etapa4()
+                etapa5()
+        
+        elif(opcao == "2"):
+            
+            print("digite a instrução:")
+            instrucao = input()
+            with open("output.txt", "w") as saida:
+                print("",file = saida)
+            if(len(instrucao) == 32):
+                print(memoria.memoria[0])
+                print(binarioParaDecimal(int(instrucao)))
+                memoria.setInstrucao(binarioParaDecimal(int(instrucao)), numeroinstrucoes)
+                print(memoria.memoria[0])
+                etapa1()
+                etapa2()
+                etapa3()
+                etapa4()
+                etapa5()
+            else:
+                print("a instrução passada não é valida")
+        
+        elif(opcao == "3"):
+            reset()
+            print("valores resetados")
+
+        elif(opcao == "0"):
+            break
 def main():
-    with open("output.txt", "w") as saida:
-        print("",file = saida)
-    arquivo = leituraArquivo()
-    i = 0
-    for linha in arquivo.readlines():
-        aux = int(linha.strip())
-        memoria.setInstrucao(binarioParaDecimal(aux), i)
-        i += 1
-    for j in range(i):
-        etapa1()
-        etapa2()
-        etapa3()
-        etapa4()
-        etapa5()
+    menu()
 
 
 
