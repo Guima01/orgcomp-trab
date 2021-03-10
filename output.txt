@@ -1,0 +1,1951 @@
+
+
+clock: 1
+Etapa: Busca da instrucao
+Instrucao: add $t1 $s1 $s0
+PC: 4
+aluOut: None
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 1
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 2
+Etapa: decodifica/leitura do banco de registradores
+Instrucao: add $t1 $s1 $s0
+PC: 4
+aluOut: 18465
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 1
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 3
+Etapa: ALU
+Instrucao: add $t1 $s1 $s0
+PC: 4
+aluOut: 2
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 1
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 4
+Etapa: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: add $t1 $s1 $s0
+PC: 4
+aluOut: 2
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 5
+Etapa: Busca da instrucao
+Instrucao: sub $t1 $t2 $s0
+PC: 8
+aluOut: 2
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 6
+Etapa: decodifica/leitura do banco de registradores
+Instrucao: sub $t1 $t2 $s0
+PC: 8
+aluOut: 18468
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 7
+Etapa: ALU
+Instrucao: sub $t1 $t2 $s0
+PC: 8
+aluOut: 0
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 8
+Etapa: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: sub $t1 $t2 $s0
+PC: 8
+aluOut: 0
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 0
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 9
+Etapa: Busca da instrucao
+Instrucao: and $t1 $t2 $s2
+PC: 12
+aluOut: 0
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 0
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 10
+Etapa: decodifica/leitura do banco de registradores
+Instrucao: and $t1 $t2 $s2
+PC: 12
+aluOut: 18471
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 0
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 11
+Etapa: ALU
+Instrucao: and $t1 $t2 $s2
+PC: 12
+aluOut: 1
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 0
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 12
+Etapa: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: and $t1 $t2 $s2
+PC: 12
+aluOut: 1
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 1
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 13
+Etapa: Busca da instrucao
+Instrucao: or $t1 $t2 $s5
+PC: 16
+aluOut: 1
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 1
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 14
+Etapa: decodifica/leitura do banco de registradores
+Instrucao: or $t1 $t2 $s5
+PC: 16
+aluOut: 18473
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 1
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 15
+Etapa: ALU
+Instrucao: or $t1 $t2 $s5
+PC: 16
+aluOut: 1
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 1
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 16
+Etapa: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: or $t1 $t2 $s5
+PC: 16
+aluOut: 1
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 1
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 17
+Etapa: Busca da instrucao
+Instrucao: slt $t1 $t2 $s5
+PC: 20
+aluOut: 1
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 1
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 18
+Etapa: decodifica/leitura do banco de registradores
+Instrucao: slt $t1 $t2 $s5
+PC: 20
+aluOut: 18479
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 1
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 19
+Etapa: ALU
+Instrucao: slt $t1 $t2 $s5
+PC: 20
+aluOut: 0
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 1
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 20
+Etapa: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: slt $t1 $t2 $s5
+PC: 20
+aluOut: 0
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 0
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 21
+Etapa: Busca da instrucao
+Instrucao: sll $t1 $t2 0x0001
+PC: 24
+aluOut: 0
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 0
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 22
+Etapa: decodifica/leitura do banco de registradores
+Instrucao: sll $t1 $t2 0x0001
+PC: 24
+aluOut: 18502
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 0
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 23
+Etapa: ALU
+Instrucao: sll $t1 $t2 0x0001
+PC: 24
+aluOut: 2
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 0
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 24
+Etapa: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: sll $t1 $t2 0x0001
+PC: 24
+aluOut: 2
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 25
+Etapa: Busca da instrucao
+Instrucao: addi $s0 $t4 0x000f
+PC: 28
+aluOut: 2
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 26
+Etapa: decodifica/leitura do banco de registradores
+Instrucao: addi $s0 $t4 0x000f
+PC: 28
+aluOut: 22
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 27
+Etapa: ALU
+Instrucao: addi $s0 $t4 0x000f
+PC: 28
+aluOut: 16
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 1
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 28
+Etapa: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: addi $s0 $t4 0x000f
+PC: 28
+aluOut: 16
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 29
+Etapa: Busca da instrucao
+Instrucao: j 0x0008
+PC: 32
+aluOut: 16
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 30
+Etapa: decodifica/leitura do banco de registradores
+Instrucao: j 0x0008
+PC: 32
+aluOut: 16
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 31
+Etapa: ALU
+Instrucao: j 0x0008
+PC: 32
+aluOut: 16
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 32
+Etapa: Busca da instrucao
+Instrucao: jal 0x0009
+PC: 36
+aluOut: 16
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 33
+Etapa: decodifica/leitura do banco de registradores
+Instrucao: jal 0x0009
+PC: 36
+aluOut: 18
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 34
+Etapa: ALU
+Instrucao: jal 0x0009
+PC: 36
+aluOut: 10
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 1
+
+clock: 35
+Etapa: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: jal 0x0009
+PC: 36
+aluOut: 10
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 36
+Etapa: Busca da instrucao
+Instrucao: beq $t5 $t6 0x0000
+PC: 40
+aluOut: 10
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 37
+Etapa: decodifica/leitura do banco de registradores
+Instrucao: beq $t5 $t6 0x0000
+PC: 40
+aluOut: 10
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 38
+Etapa: ALU
+Instrucao: beq $t5 $t6 0x0000
+PC: 40
+aluOut: 10
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 39
+Etapa: Busca da instrucao
+Instrucao: bne $t5 $t6 0x0001
+PC: 44
+aluOut: 10
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 40
+Etapa: decodifica/leitura do banco de registradores
+Instrucao: bne $t5 $t6 0x0001
+PC: 44
+aluOut: 12
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 41
+Etapa: ALU
+Instrucao: bne $t5 $t6 0x0001
+PC: 44
+aluOut: 12
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 42
+Etapa: Busca da instrucao
+Instrucao: lw $s0 0x0018($s1)
+PC: 48
+aluOut: 12
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 43
+Etapa: decodifica/leitura do banco de registradores
+Instrucao: lw $s0 0x0018($s1)
+PC: 48
+aluOut: 36
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 44
+Etapa: ALU
+Instrucao: lw $s0 0x0018($s1)
+PC: 48
+aluOut: 25
+MDR: None
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 45
+Etapa: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: lw $s0 0x0018($s1)
+PC: 48
+aluOut: 25
+MDR: 3
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 16
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 46
+Etapa: Conclusao da leitura da memoria/Escrita no banco de registradores
+Instrucao: lw $s0 0x0018($s1)
+PC: 48
+aluOut: 25
+MDR: 3
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 3
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 47
+Etapa: Busca da instrucao
+Instrucao: sw $s0 0x0020($s1)
+PC: 52
+aluOut: 25
+MDR: 3
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 3
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 48
+Etapa: decodifica/leitura do banco de registradores
+Instrucao: sw $s0 0x0020($s1)
+PC: 52
+aluOut: 45
+MDR: 3
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 3
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 49
+Etapa: ALU
+Instrucao: sw $s0 0x0020($s1)
+PC: 52
+aluOut: 33
+MDR: 3
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 3
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
+
+clock: 50
+Etapa: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: sw $s0 0x0020($s1)
+PC: 52
+aluOut: 33
+MDR: 3
+Registrador 0: 1
+Registrador 1: 1
+Registrador 2: 1
+Registrador 3: 1
+Registrador 4: 1
+Registrador 5: 1
+Registrador 6: 1
+Registrador 7: 1
+Registrador 8: 1
+Registrador 9: 2
+Registrador 10: 1
+Registrador 11: 1
+Registrador 12: 1
+Registrador 13: 1
+Registrador 14: 1
+Registrador 15: 1
+Registrador 16: 3
+Registrador 17: 1
+Registrador 18: 1
+Registrador 19: 1
+Registrador 20: 1
+Registrador 21: 1
+Registrador 22: 1
+Registrador 23: 1
+Registrador 24: 1
+Registrador 25: 1
+Registrador 26: 1
+Registrador 27: 1
+Registrador 28: 1
+Registrador 29: 1
+Registrador 30: 1
+Registrador 31: 10
