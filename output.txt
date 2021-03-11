@@ -1,157 +1,6289 @@
-
+RESULTADO
 
 clock: 1
-Etapa: Busca da instrucao
+Etapa 1: Busca da instrucao
 Instrucao: add $t1 $s1 $s0
 PC: 4
 aluOut: None
-MDR: None
-Registrador 0: 1
-Registrador 1: 1
-Registrador 2: 1
-Registrador 3: 1
-Registrador 4: 1
-Registrador 5: 1
-Registrador 6: 1
-Registrador 7: 1
-Registrador 8: 1
-Registrador 9: 1
-Registrador 10: 1
-Registrador 11: 1
-Registrador 12: 1
-Registrador 13: 1
-Registrador 14: 1
-Registrador 15: 1
-Registrador 16: 1
-Registrador 17: 1
-Registrador 18: 1
-Registrador 19: 1
-Registrador 20: 1
-Registrador 21: 1
-Registrador 22: 1
-Registrador 23: 1
-Registrador 24: 1
-Registrador 25: 1
-Registrador 26: 1
-Registrador 27: 1
-Registrador 28: 1
-Registrador 29: 1
-Registrador 30: 1
-Registrador 31: 1
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 1
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
 
 clock: 2
-Etapa: decodifica/leitura do banco de registradores
+Etapa 2: decodifica/leitura do banco de registradores
 Instrucao: add $t1 $s1 $s0
 PC: 4
 aluOut: 18465
-MDR: None
-Registrador 0: 1
-Registrador 1: 1
-Registrador 2: 1
-Registrador 3: 1
-Registrador 4: 1
-Registrador 5: 1
-Registrador 6: 1
-Registrador 7: 1
-Registrador 8: 1
-Registrador 9: 1
-Registrador 10: 1
-Registrador 11: 1
-Registrador 12: 1
-Registrador 13: 1
-Registrador 14: 1
-Registrador 15: 1
-Registrador 16: 1
-Registrador 17: 1
-Registrador 18: 1
-Registrador 19: 1
-Registrador 20: 1
-Registrador 21: 1
-Registrador 22: 1
-Registrador 23: 1
-Registrador 24: 1
-Registrador 25: 1
-Registrador 26: 1
-Registrador 27: 1
-Registrador 28: 1
-Registrador 29: 1
-Registrador 30: 1
-Registrador 31: 1
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 1
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
 
 clock: 3
-Etapa: ALU
+Etapa 3: ALU
 Instrucao: add $t1 $s1 $s0
 PC: 4
 aluOut: 2
-MDR: None
-Registrador 0: 1
-Registrador 1: 1
-Registrador 2: 1
-Registrador 3: 1
-Registrador 4: 1
-Registrador 5: 1
-Registrador 6: 1
-Registrador 7: 1
-Registrador 8: 1
-Registrador 9: 1
-Registrador 10: 1
-Registrador 11: 1
-Registrador 12: 1
-Registrador 13: 1
-Registrador 14: 1
-Registrador 15: 1
-Registrador 16: 1
-Registrador 17: 1
-Registrador 18: 1
-Registrador 19: 1
-Registrador 20: 1
-Registrador 21: 1
-Registrador 22: 1
-Registrador 23: 1
-Registrador 24: 1
-Registrador 25: 1
-Registrador 26: 1
-Registrador 27: 1
-Registrador 28: 1
-Registrador 29: 1
-Registrador 30: 1
-Registrador 31: 1
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 1
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 1
+ALUSrcB: 0
+ALUOP: 2
+PCSource: 0
+PCWrite: 1
 
 clock: 4
-Etapa: Acesso a memoria ou conclusao de instrucao do tipo-R
+Etapa 4: Acesso a memoria ou conclusao de instrucao do tipo-R
 Instrucao: add $t1 $s1 $s0
 PC: 4
 aluOut: 2
-MDR: None
-Registrador 0: 1
-Registrador 1: 1
-Registrador 2: 1
-Registrador 3: 1
-Registrador 4: 1
-Registrador 5: 1
-Registrador 6: 1
-Registrador 7: 1
-Registrador 8: 1
-Registrador 9: 2
-Registrador 10: 1
-Registrador 11: 1
-Registrador 12: 1
-Registrador 13: 1
-Registrador 14: 1
-Registrador 15: 1
-Registrador 16: 1
-Registrador 17: 1
-Registrador 18: 1
-Registrador 19: 1
-Registrador 20: 1
-Registrador 21: 1
-Registrador 22: 1
-Registrador 23: 1
-Registrador 24: 1
-Registrador 25: 1
-Registrador 26: 1
-Registrador 27: 1
-Registrador 28: 1
-Registrador 29: 1
-Registrador 30: 1
-Registrador 31: 1
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+RegDst: 1
+RegWrite: 1
+MemToReg: 0
+
+clock: 5
+Etapa 1: Busca da instrucao
+Instrucao: sub $t1 $t2 $s0
+PC: 8
+aluOut: 2
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 6
+Etapa 2: decodifica/leitura do banco de registradores
+Instrucao: sub $t1 $t2 $s0
+PC: 8
+aluOut: 18468
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+
+clock: 7
+Etapa 3: ALU
+Instrucao: sub $t1 $t2 $s0
+PC: 8
+aluOut: 0
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 1
+ALUSrcB: 0
+ALUOP: 2
+PCSource: 0
+PCWrite: 1
+
+clock: 8
+Etapa 4: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: sub $t1 $t2 $s0
+PC: 8
+aluOut: 0
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 0
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+RegDst: 1
+RegWrite: 1
+MemToReg: 0
+
+clock: 9
+Etapa 1: Busca da instrucao
+Instrucao: and $t1 $t2 $s2
+PC: 12
+aluOut: 0
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 0
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 10
+Etapa 2: decodifica/leitura do banco de registradores
+Instrucao: and $t1 $t2 $s2
+PC: 12
+aluOut: 18471
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 0
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+
+clock: 11
+Etapa 3: ALU
+Instrucao: and $t1 $t2 $s2
+PC: 12
+aluOut: 1
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 0
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 1
+ALUSrcB: 0
+ALUOP: 2
+PCSource: 0
+PCWrite: 1
+
+clock: 12
+Etapa 4: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: and $t1 $t2 $s2
+PC: 12
+aluOut: 1
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 1
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+RegDst: 1
+RegWrite: 1
+MemToReg: 0
+
+clock: 13
+Etapa 1: Busca da instrucao
+Instrucao: or $t1 $t2 $s5
+PC: 16
+aluOut: 1
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 1
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 14
+Etapa 2: decodifica/leitura do banco de registradores
+Instrucao: or $t1 $t2 $s5
+PC: 16
+aluOut: 18473
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 1
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+
+clock: 15
+Etapa 3: ALU
+Instrucao: or $t1 $t2 $s5
+PC: 16
+aluOut: 1
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 1
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 1
+ALUSrcB: 0
+ALUOP: 2
+PCSource: 0
+PCWrite: 1
+
+clock: 16
+Etapa 4: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: or $t1 $t2 $s5
+PC: 16
+aluOut: 1
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 1
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+RegDst: 1
+RegWrite: 1
+MemToReg: 0
+
+clock: 17
+Etapa 1: Busca da instrucao
+Instrucao: slt $t1 $t2 $s5
+PC: 20
+aluOut: 1
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 1
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 18
+Etapa 2: decodifica/leitura do banco de registradores
+Instrucao: slt $t1 $t2 $s5
+PC: 20
+aluOut: 18479
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 1
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+
+clock: 19
+Etapa 3: ALU
+Instrucao: slt $t1 $t2 $s5
+PC: 20
+aluOut: 0
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 1
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 1
+ALUSrcB: 0
+ALUOP: 1
+PCSource: 1
+PCWrite: 1
+
+clock: 20
+Etapa 4: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: slt $t1 $t2 $s5
+PC: 20
+aluOut: 0
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 0
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+RegDst: 1
+RegWrite: 1
+MemToReg: 0
+
+clock: 21
+Etapa 1: Busca da instrucao
+Instrucao: sll $t1 $t2 0x0001
+PC: 24
+aluOut: 0
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 0
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 22
+Etapa 2: decodifica/leitura do banco de registradores
+Instrucao: sll $t1 $t2 0x0001
+PC: 24
+aluOut: 18502
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 0
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+
+clock: 23
+Etapa 3: ALU
+Instrucao: sll $t1 $t2 0x0001
+PC: 24
+aluOut: 2
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 0
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 1
+ALUSrcB: 0
+ALUOP: 2
+PCSource: 0
+PCWrite: 1
+
+clock: 24
+Etapa 4: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: sll $t1 $t2 0x0001
+PC: 24
+aluOut: 2
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+RegDst: 1
+RegWrite: 1
+MemToReg: 0
+
+clock: 25
+Etapa 1: Busca da instrucao
+Instrucao: addi $s0 $t4 0x000f
+PC: 28
+aluOut: 2
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 26
+Etapa 2: decodifica/leitura do banco de registradores
+Instrucao: addi $s0 $t4 0x000f
+PC: 28
+aluOut: 22
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+
+clock: 27
+Etapa 3: ALU
+Instrucao: addi $s0 $t4 0x000f
+PC: 28
+aluOut: 16
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 1
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 1
+ALUSrcB: 0
+ALUOP: 2
+PCSource: 0
+PCWrite: 1
+
+clock: 28
+Etapa 4: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: addi $s0 $t4 0x000f
+PC: 28
+aluOut: 16
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+clock: 29
+Etapa 1: Busca da instrucao
+Instrucao: j 0x0008
+PC: 32
+aluOut: 16
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 30
+Etapa 2: decodifica/leitura do banco de registradores
+Instrucao: j 0x0008
+PC: 32
+aluOut: 16
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+
+clock: 31
+Etapa 3: ALU
+Instrucao: j 0x0008
+PC: 32
+aluOut: 16
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+PCSource: 2
+PCWrite: 1
+
+clock: 32
+Etapa 1: Busca da instrucao
+Instrucao: jal 0x0009
+PC: 36
+aluOut: 16
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 33
+Etapa 2: decodifica/leitura do banco de registradores
+Instrucao: jal 0x0009
+PC: 36
+aluOut: 18
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+
+clock: 34
+Etapa 3: ALU
+Instrucao: jal 0x0009
+PC: 36
+aluOut: 10
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 1
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+PCSource: 2
+PCWrite: 1
+
+clock: 35
+Etapa 4: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: jal 0x0009
+PC: 36
+aluOut: 10
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+RegDst: 1
+RegWrite: 1
+MemToReg: 0
+
+clock: 36
+Etapa 1: Busca da instrucao
+Instrucao: beq $t5 $t6 0x0000
+PC: 40
+aluOut: 10
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 37
+Etapa 2: decodifica/leitura do banco de registradores
+Instrucao: beq $t5 $t6 0x0000
+PC: 40
+aluOut: 10
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+
+clock: 38
+Etapa 3: ALU
+Instrucao: beq $t5 $t6 0x0000
+PC: 40
+aluOut: 10
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 1
+ALUSrcB: 0
+ALUOP: 1
+PCSource: 1
+PCWrite: 1
+
+clock: 39
+Etapa 1: Busca da instrucao
+Instrucao: bne $t5 $t6 0x0001
+PC: 44
+aluOut: 10
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 40
+Etapa 2: decodifica/leitura do banco de registradores
+Instrucao: bne $t5 $t6 0x0001
+PC: 44
+aluOut: 12
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+
+clock: 41
+Etapa 3: ALU
+Instrucao: bne $t5 $t6 0x0001
+PC: 44
+aluOut: 12
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 1
+ALUSrcB: 0
+ALUOP: 1
+PCSource: 1
+PCWrite: 1
+
+clock: 42
+Etapa 1: Busca da instrucao
+Instrucao: lw $s0 0x0018($s1)
+PC: 48
+aluOut: 12
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 43
+Etapa 2: decodifica/leitura do banco de registradores
+Instrucao: lw $s0 0x0018($s1)
+PC: 48
+aluOut: 36
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+
+clock: 44
+Etapa 3: ALU
+Instrucao: lw $s0 0x0018($s1)
+PC: 48
+aluOut: 25
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 1
+ALUSrcB: 2
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 45
+Etapa 4: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: lw $s0 0x0018($s1)
+PC: 48
+aluOut: 25
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 16
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IorD: 1
+
+clock: 46
+Etapa 5: Conclusao da leitura da memoria/Escrita no banco de registradores
+Instrucao: lw $s0 0x0018($s1)
+PC: 48
+aluOut: 25
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 3
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+RegDst: 1
+RegWrite: 1
+MemToReg: 0
+
+clock: 47
+Etapa 1: Busca da instrucao
+Instrucao: sw $ra 0x0020($s1)
+PC: 52
+aluOut: 25
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 3
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 48
+Etapa 2: decodifica/leitura do banco de registradores
+Instrucao: sw $ra 0x0020($s1)
+PC: 52
+aluOut: 45
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 3
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+
+clock: 49
+Etapa 3: ALU
+Instrucao: sw $ra 0x0020($s1)
+PC: 52
+aluOut: 33
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 3
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 3
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 1
+ALUSrcB: 2
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 50
+Etapa 4: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: sw $ra 0x0020($s1)
+PC: 52
+aluOut: 33
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 3
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 10
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemWrite: 1
+IorD: 1
+
+clock: 51
+Etapa 1: Busca da instrucao
+Instrucao: jr $ra
+PC: 56
+aluOut: 33
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 3
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 10
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 1
+ALUOP: 0
+PCSource: 0
+PCWrite: 1
+
+clock: 52
+Etapa 2: decodifica/leitura do banco de registradores
+Instrucao: jr $ra
+PC: 56
+aluOut: 22
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 3
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 10
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+
+clock: 53
+Etapa 3: ALU
+Instrucao: jr $ra
+PC: 40
+aluOut: 22
+
+REGISTRADORES
+
+Registrador $zero: 0
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 3
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 10
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+MemRead: 1
+IRWrite: 1
+IorD: 0
+ALUSrcA: 0
+ALUSrcB: 3
+ALUOP: 0
+PCSource: 2
+PCWrite: 1
+
+clock: 54
+Etapa 4: Acesso a memoria ou conclusao de instrucao do tipo-R
+Instrucao: jr $ra
+PC: 40
+aluOut: 22
+
+REGISTRADORES
+
+Registrador $zero: 22
+Registrador $at: 1
+Registrador $v0: 1
+Registrador $v1: 1
+Registrador $a0: 1
+Registrador $a1: 1
+Registrador $a2: 1
+Registrador $a3: 1
+Registrador $t0: 1
+Registrador $t1: 2
+Registrador $t2: 1
+Registrador $t3: 1
+Registrador $t4: 1
+Registrador $t5: 1
+Registrador $t6: 1
+Registrador $t7: 1
+Registrador $s0: 3
+Registrador $s1: 1
+Registrador $s2: 1
+Registrador $s3: 1
+Registrador $s4: 1
+Registrador $s5: 1
+Registrador $s6: 1
+Registrador $s7: 1
+Registrador $t8: 1
+Registrador $t9: 1
+Registrador $k0: 1
+Registrador $k1: 1
+Registrador $gp: 1
+Registrador $sp: 1
+Registrador $fp: 1
+Registrador $ra: 10
+
+MEMORIA
+
+Memoria na posicao 0: 36718624
+Memoria na posicao 1: 22038562
+Memoria na posicao 2: 22169636
+Memoria na posicao 3: 22366245
+Memoria na posicao 4: 22366250
+Memoria na posicao 5: 673856
+Memoria na posicao 6: 563085327
+Memoria na posicao 7: 134217736
+Memoria na posicao 8: 201326601
+Memoria na posicao 9: 296615936
+Memoria na posicao 10: 363724801
+Memoria na posicao 11: 2385510424
+Memoria na posicao 12: 2923364384
+Memoria na posicao 13: 65011720
+Memoria na posicao 14: 3
+Memoria na posicao 15: 3
+Memoria na posicao 16: 3
+Memoria na posicao 17: 3
+Memoria na posicao 18: 3
+Memoria na posicao 19: 3
+Memoria na posicao 20: 3
+Memoria na posicao 21: 3
+Memoria na posicao 22: 3
+Memoria na posicao 23: 3
+Memoria na posicao 24: 3
+Memoria na posicao 25: 3
+Memoria na posicao 26: 3
+Memoria na posicao 27: 3
+Memoria na posicao 28: 3
+Memoria na posicao 29: 3
+Memoria na posicao 30: 3
+Memoria na posicao 31: 3
+Memoria na posicao 32: 3
+Memoria na posicao 33: 10
+Memoria na posicao 34: 3
+Memoria na posicao 35: 3
+Memoria na posicao 36: 3
+Memoria na posicao 37: 3
+Memoria na posicao 38: 3
+Memoria na posicao 39: 3
+Memoria na posicao 40: 3
+Memoria na posicao 41: 3
+Memoria na posicao 42: 3
+Memoria na posicao 43: 3
+Memoria na posicao 44: 3
+Memoria na posicao 45: 3
+Memoria na posicao 46: 3
+Memoria na posicao 47: 3
+Memoria na posicao 48: 3
+Memoria na posicao 49: 3
+Memoria na posicao 50: 3
+Memoria na posicao 51: 3
+Memoria na posicao 52: 3
+Memoria na posicao 53: 3
+Memoria na posicao 54: 3
+Memoria na posicao 55: 3
+Memoria na posicao 56: 3
+Memoria na posicao 57: 3
+Memoria na posicao 58: 3
+Memoria na posicao 59: 3
+Memoria na posicao 60: 3
+Memoria na posicao 61: 3
+Memoria na posicao 62: 3
+Memoria na posicao 63: 3
+
+SINAIS DE CONTROLE
+
+RegDst: 1
+RegWrite: 1
+MemToReg: 0

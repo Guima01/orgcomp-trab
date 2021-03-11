@@ -5,7 +5,7 @@ class memoria:
         self.pc = 0
 
     def setInstrucao(self,instrucao, index):
-        self.memoria.insert(index, instrucao)
+        self.memoria[index] = instrucao
 
     def getInstrucao(self,posicao):
         return self.memoria[posicao]

@@ -32,15 +32,15 @@ def printEtapas(etapa):
         print("clock: " + str(clock), file = saida) 
 
         if(etapa == 1):
-            print("Etapa: Busca da instrucao", file = saida)
+            print("Etapa 1: Busca da instrucao", file = saida)
         if(etapa == 2):
-            print("Etapa: decodifica/leitura do banco de registradores", file = saida)
+            print("Etapa 2: decodifica/leitura do banco de registradores", file = saida)
         if(etapa == 3):
-            print("Etapa: ALU", file = saida)
+            print("Etapa 3: ALU", file = saida)
         if(etapa == 4):
-            print("Etapa: Acesso a memoria ou conclusao de instrucao do tipo-R", file = saida)
+            print("Etapa 4: Acesso a memoria ou conclusao de instrucao do tipo-R", file = saida)
         if(etapa == 5):
-            print("Etapa: Conclusao da leitura da memoria/Escrita no banco de registradores", file = saida)
+            print("Etapa 5: Conclusao da leitura da memoria/Escrita no banco de registradores", file = saida)
 
 
         if(opcode == 0):
@@ -69,12 +69,21 @@ def printEtapas(etapa):
                 print("Instrucao: " + dicionario.tipoI[opcode] + " " + dicionario.registradores[rs] + " " + dicionario.registradores[rt] + " " + "0x{:04x}".format(immediate), file = saida)
             elif(opcode == 35 or opcode == 43):
                 print("Instrucao: " + dicionario.tipoI[opcode] + " " + dicionario.registradores[rt] + " " + "0x{:04x}".format(immediate) + "({0})".format(dicionario.registradores[rs]), file = saida)   
+        
         print("PC: " + str(memoria.pc * 4), file = saida)
         print("aluOut: " + str(aluOut), file = saida)
-        print("MDR: " + str(mdr), file = saida)
 
+        print("", file = saida)
+        print("REGISTRADORES", file = saida)
+        print("", file = saida)
         for i in range(len(registradores)):
-            print("Registrador " + str(i) + ": " + str(registradores[i]), file = saida)
+            print("Registrador " + dicionario.registradores[i] + ": " + str(registradores[i]), file = saida)
+
+        print("", file = saida)
+        print("MEMORIA", file = saida)
+        print("", file = saida)
+        for i in range(len(memoria.memoria)):
+            print("Memoria na posicao " + str(i) + ": " + str(memoria.memoria[i]), file = saida)
     
     clock +=1
 
@@ -210,6 +219,7 @@ def etapa1():
         memoria.pc = memoria.pc + 1
     
     printEtapas(1)
+    controle.printVariaveisControle(None,None,1)
 
 
 def etapa2():
@@ -218,13 +228,18 @@ def etapa2():
     global aRegister
     global bRegister
 
-    controle.variaveisControle(None, None, 2)
-    aRegister = registradores[extractKBits(ir,5,22)]
-    bRegister = registradores[extractKBits(ir,5,17)]
-    aux = complementoDois(ir, 16)
-    aluOut = memoria.pc + aux
-    printEtapas(2)   
+    controle.variaveisControle(None,None,2) 
+
+    if(controle.aluSrcA == 0 and controle.aluSrcB == 3 and controle.aluOP == 0):
+        controle.variaveisControle(None, None, 2)
+        aRegister = registradores[extractKBits(ir,5,22)]
+        bRegister = registradores[extractKBits(ir,5,17)]
+        aux = complementoDois(ir, 16)
+        aluOut = memoria.pc + aux
+    printEtapas(2) 
+    controle.printVariaveisControle(None,None,2)  
     
+
 def etapa3():
     global ir
     global aluOut
@@ -250,6 +265,7 @@ def etapa3():
         desvioIncondicional(functioncode,opcode)
 
     printEtapas(3)
+    controle.printVariaveisControle(functioncode,opcode,1)
 
 
 def etapa4():
@@ -267,21 +283,26 @@ def etapa4():
 
     if(controle.memRead == 1 and controle.iorD == 1 and opcode == 35):
         mdr = memoria.memoria[aluOut]
-        printEtapas(4)        
+        printEtapas(4) 
+        controle.printVariaveisControle(functioncode,opcode,4)       
    
     elif(controle.memWrite == 1 and controle.iorD == 1 and opcode == 43):
         memoria.memoria[aluOut] = bRegister
         printEtapas(4)
+        controle.printVariaveisControle(functioncode,opcode,4)
+
     elif(controle.regDst == 1 and controle.regWrite == 1 and controle.memToReg == 0):
         if(opcode == 0):
             registradores[extractKBits(ir, 5, 12)] = aluOut
             printEtapas(4)
+            controle.printVariaveisControle(functioncode,opcode,4)
         elif(opcode == 8):
             registradores[extractKBits(ir, 5, 17)] = aluOut
             printEtapas(4)
         elif(opcode == 3):
             registradores[31] = aluOut
             printEtapas(4)
+            controle.printVariaveisControle(functioncode,opcode,4)
     
 def etapa5():
 
@@ -293,11 +314,13 @@ def etapa5():
     global mdr
     
     opcode = extractKBits(ir,6,27)
+    functioncode = extractKBits(ir,6,1)
 
     if(opcode == 35):
         position = extractKBits(ir, 5, 17)
         registradores[position] = mdr
         printEtapas(5)
+        controle.printVariaveisControle(functioncode,opcode,5)
 
 def leituraArquivo():
     print('digite o caminho do arquivo de entrada:')
@@ -314,8 +337,10 @@ def reset():
 
     for i in range(32):
         registradores[i] = 1
+    registradores[0] = 0
     for i in range(64):
         memoria.memoria[i] = 3
+
     numeroinstrucoes = 0
     memoria.pc = 0
     aluOut = None
@@ -326,16 +351,22 @@ def reset():
 def menu():
 
     global numeroinstrucoes
+    registradores[0] = 0
     while(True):
         print("Menu")
         print("[1] leitura de arquivo de instruções")
-        print("[2] leitura do arquivo via teclado")
+        print("[2] leitura via teclado")
         print("[3] Reset memória e registradores")
         print("[0] Sair")
         print()
         opcao = input()
 
         if(opcao == "1"):
+            print("")
+            print("Menu")
+            print("[1] Execução Direta")
+            print("[2] Execução passo-a-passo")
+            execucao = input()
             with open("output.txt", "w") as saida:
                 print("RESULTADO",file = saida)
             arquivo = leituraArquivo()
@@ -343,12 +374,30 @@ def menu():
                 aux = int(linha.strip())
                 memoria.setInstrucao(binarioParaDecimal(aux), numeroinstrucoes)
                 numeroinstrucoes +=1
-            while(memoria.memoria[memoria.pc] != 3):
-                etapa1()
-                etapa2()
-                etapa3()
-                etapa4()
-                etapa5()
+
+            if(execucao == "1"):
+                for i in range (numeroinstrucoes):
+                    etapa1()
+                    etapa2()
+                    etapa3()
+                    etapa4()
+                    etapa5()
+                    i = memoria.pc
+
+            elif(execucao == "2"):
+                for i in range (numeroinstrucoes):
+                    etapa1()
+                    etapa2()
+                    etapa3()
+                    etapa4()
+                    etapa5()
+                    i = memoria.pc
+                    print("[1] proxima instrucao")
+                    prox = input()
+                    if(prox != "1"):
+                        print("saindo da execução")
+                        break
+
         
         elif(opcao == "2"):
             
@@ -357,10 +406,7 @@ def menu():
             with open("output.txt", "w") as saida:
                 print("",file = saida)
             if(len(instrucao) == 32):
-                print(memoria.memoria[0])
-                print(binarioParaDecimal(int(instrucao)))
                 memoria.setInstrucao(binarioParaDecimal(int(instrucao)), numeroinstrucoes)
-                print(memoria.memoria[0])
                 etapa1()
                 etapa2()
                 etapa3()
